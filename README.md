@@ -37,3 +37,8 @@ Se da respuesta a 5 preguntas de negocio sobre el mercado de Airbnb en la ciudad
   El 80% de los hosts son hosts individuales con 1 o 2 listings, y controlan solo el 37% del mercado.
   Mercado altamente concentrado con pocos operadores profesionales grandes.
 
+## Consideraciones durante la limpieza de datos
+* Se filtraron aquellas filas con datos de precio anómalos (menores a 10$ o mayores a 1500$)
+
+## Herramientas utilizadas
+Python, Pandas, Numpy, Matplotlib y Excel
